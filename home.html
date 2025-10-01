@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer - Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="home-bg">
+  <div class="overlay"></div>
+
+  <header>
+    <nav>
+      <a href="login.html" id="logoutBtn">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>🌍 Travel Explorer</h1>
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Enter a city...">
+        <button id="exploreBtn">Explore</button>
+      </div>
+    </section>
+
+    <div class="results">
+      <section>
+        <h2>📸 Photos</h2>
+        <div id="photos"></div>
+      </section>
+
+      <section>
+        <h2>☁️ Weather</h2>
+        <div id="weather"></div>
+      </section>
+
+      <section>
+        <h2>🗺️ Map</h2>
+        <div id="map"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

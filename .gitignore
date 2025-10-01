@@ -1,2 +1,15 @@
-# Ignore API key file
-secrets.js
+# Ignore config file with API keys
+config.js
+
+# Node modules (if using npm)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/

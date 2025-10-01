@@ -1,0 +1,179 @@
+/* Full-screen Traveler Background */
+.home-bg {
+  background: url("https://source.unsplash.com/1600x900/?travel,explore,adventure,city") no-repeat center center/cover;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 0;
+}
+
+header {
+  text-align: right;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+nav a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 60vh;
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px black;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-bar button:hover {
+  background: #e68900;
+}
+
+/* Results Section */
+.results section {
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 900px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.results h2 {
+  margin-bottom: 10px;
+}
+
+#photos img {
+  width: 30%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* Login / Landing page */
+.login-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.login-hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.login-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.login-hero button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-hero button:hover {
+  background: #e68900;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.login-form input {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 250px;
+}
+
+.login-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background: #e68900;
+}
+
+.login-hero a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-hero a:hover {
+  text-decoration: underline;
+}
